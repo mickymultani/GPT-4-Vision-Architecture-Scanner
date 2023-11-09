@@ -1,26 +1,25 @@
-# Streaming LLM Chat
+# GPT-4 Vision Architecture Scanner
 
-Streaming LLM Chat is a web application built with Flask and OpenAI's GPT-4 models, designed to provide an interactive chat experience using large language models (LLMs).
+GPT-4 Vision Architecture Scanner is a web application built with Flask and OpenAI's GPT-4 Vision model, designed to analyze system architecture diagrams and provide interactive insights.
 
-![Screen Capture](screen-capture.gif)
-
+![System Architecture](system-architecture.gif)
 
 ## Features
 
-- Interactive chat interface with real-time response streaming.
-- Integration with OpenAI's GPT-4 for intelligent and coherent responses.
-- Simple and easy to set up with minimal configuration required.
-- Browser automation for easy access to the chat interface upon starting the application.
-- Requires Python 3.10.x
+- Upload and analyze system architecture diagrams.
+- Integration with OpenAI's GPT-4 Vision for detailed insights into architecture components.
+- Simple and easy setup with minimal configuration required.
+- Supports image uploads in multiple formats.
+- Responses are formatted with neat markdown.
 
 ## Installation
 
-To run Streaming LLM Chat on your local machine, follow these steps:
+To run GPT-4 Vision Architecture Scanner on your local machine, follow these steps:
 
 1. Clone the repository:
    ```
-   git clone https://github.com/your_username/Streaming-LLM-Chat.git
-   cd Streaming-LLM-Chat
+   git clone https://github.com/your_username/GPT-4-Vision-Architecture-Scanner.git
+   cd GPT-4-Vision-Architecture-Scanner
    ```
 
 2. Create and activate a virtual environment:
@@ -51,7 +50,7 @@ Run the application:
    python app.py
    ```
 
-The application will start a local server and automatically open the chat interface in your default web browser.
+The application will start a local server and automatically open the chat interface in your default web browser. GPT-4 Vision currently(as of Nov 8, 2023) supports PNG (.png), JPEG (.jpeg and .jpg), WEBP (.webp), and non-animated GIF (.gif).
 
 ## Contributing
 
